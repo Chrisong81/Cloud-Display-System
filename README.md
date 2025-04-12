@@ -4,3 +4,4 @@ A cloud display system projects or renders data visually using cloud computing i
 
 ## 🚀 Features
 - Displays both images and videos
+- Remote Access
