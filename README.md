@@ -28,27 +28,27 @@ sudo apt install rclone
 rclone config
 ```
 - Enter n (for a new connection) and then press enter
-- Enter a name for the connection (i’ll enter dropbox) and press enter
+- Enter a name for the connection (I will enter dropbox) and press enter
 - Enter 8 for “Dropbox” and press enter
 - Press Enter for client ID
 - Press Enter for client Secret
 - Enter n for advanced config
 - Enter y for “use auto config”
 
-### Synochronization
+### Synchronisation
 ```bash
 #! /bin/bash
 
 RCLONE_CONFIG=/home/pi/.config/rclone/rclone.conf
 rclone sync -v dropbox:[Your Dropbox Folder Name] /home/pi/Videos
 ```
-- Copy this code above save as file name extension 'xxx.sh'.
+- Copy this code above save as file name extension 'sync.sh'.
 
 ## Run
 ```bash
 pi@raspberrypi:~ $ crontab -e
 Choose 1-3 [1]: 1
 Insert the following code to launch the startup process:
-@reboot /home/pi/Documents/xxx.sh
+@reboot /home/pi/Documents/sync.sh
 @reboot /home/pi/Documents/play.sh
 ```
