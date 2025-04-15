@@ -19,6 +19,22 @@ sudo apt install mpv
 sudo apt install inotify-tools
 ```
 
+### Rclone
+```bash
+sudo apt install rclone
+```
+### Run the configuration wizard:
+```bash
+rclone config
+```
+- Enter n (for a new connection) and then press enter
+- Enter a name for the connection (i’ll enter dropbox) and press enter
+- Enter 8 for “Dropbox” and press enter
+- Press Enter for client ID
+- Press Enter for client Secret
+- Enter n for advanced config
+- Enter y for “use auto config”
+
 ## Run
 ```bash
 pi@raspberrypi:~ $ crontab -e
