@@ -9,8 +9,8 @@ A cloud display system projects or renders data visually using cloud computing i
 - Real-Time Updates
 
 ## 🛠️ Installation
-```bash
 #MPV
+```bash
 sudo apt install mpv
 
 
