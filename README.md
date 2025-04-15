@@ -7,3 +7,10 @@ A cloud display system projects or renders data visually using cloud computing i
 - Remote Access
 - Cloud Storage Integration
 - Real-Time Updates
+
+## 🛠️ Installation
+#MPV
+sudo apt install mpv
+#Inotifywait
+sudo apt install inotify-tools
+
