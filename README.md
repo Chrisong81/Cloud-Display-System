@@ -40,14 +40,15 @@ rclone config
 #! /bin/bash
 
 RCLONE_CONFIG=/home/pi/.config/rclone/rclone.conf
-rclone sync -v dropbox:[Your Dropbox Folder Name] /home/pi/dropbox
+rclone sync -v dropbox:[Your Dropbox Folder Name] /home/pi/Videos
 ```
-- Copy this code above save as file name extension '.sh'.
+- Copy this code above save as file name extension 'xxx.sh'.
 
 ## Run
 ```bash
 pi@raspberrypi:~ $ crontab -e
 Choose 1-3 [1]: 1
 Insert the following code to launch the startup process:
+@reboot /home/pi/Documents/xxx.sh
 @reboot /home/pi/Documents/play.sh
 ```
