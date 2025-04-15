@@ -19,5 +19,10 @@ sudo apt install mpv
 sudo apt install inotify-tools
 ```
 
-
-
+## Run
+```bash
+pi@raspberrypi:~ $ crontab -e
+Choose 1-3 [1]: 1
+Insert the following code to launch the startup process:
+@reboot /home/pi/Documents/play.sh
+```
