@@ -10,8 +10,10 @@ A cloud display system projects or renders data visually using cloud computing i
 
 ## 🛠️ Installation
 #MPV
+
 sudo apt install mpv
 
 #Inotifywait
+
 sudo apt install inotify-tools
 
