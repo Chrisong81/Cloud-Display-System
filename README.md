@@ -42,7 +42,7 @@ rclone config
 RCLONE_CONFIG=/home/pi/.config/rclone/rclone.conf
 rclone sync -v dropbox:[Your Dropbox Folder Name] /home/pi/Videos
 ```
-- Copy this code above save as file name extension 'sync.sh'.
+- Copy this code above save as file name such as 'sync.sh'.
 
 ## Run
 ```bash
