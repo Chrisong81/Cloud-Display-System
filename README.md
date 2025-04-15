@@ -35,6 +35,15 @@ rclone config
 - Enter n for advanced config
 - Enter y for “use auto config”
 
+### Synochronization
+```bash
+#! /bin/bash
+
+RCLONE_CONFIG=/home/pi/.config/rclone/rclone.conf
+rclone sync -v dropbox:[Your Dropbox Folder Name] /home/pi/dropbox
+```
+- Copy this code above save as file name extension '.sh'.
+
 ## Run
 ```bash
 pi@raspberrypi:~ $ crontab -e
